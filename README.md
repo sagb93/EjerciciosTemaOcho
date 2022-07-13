@@ -1,4 +1,3 @@
-
 # Ejercicios tema 8
 
 ## Primer ejercicio
@@ -9,6 +8,6 @@
 - Utiliza los gets y sets para darle valores a las propiedades edad, nombre y telefono, por último muéstralas por consola.
 
 ```sh
-     Persona persona = new Persona(nombre, edad, numeroTelefono);
-        persona.execute();
+      Persona persona = new Persona(nombre, edad, numeroTelefono);
+         System.out.println(persona.getDetalles());; 
 ```
