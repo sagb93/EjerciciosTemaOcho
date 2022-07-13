@@ -13,9 +13,8 @@ public class Persona {
         this.numeroTelefono = numeroTelefono;
     }
 
-    public void execute() {
-
-        System.out.println(String.format("Datos personales:\n %s\t %d anios\t telefono %d ", nombre, edad, numeroTelefono));
+    public String getDetalles() {
+        return (String.format("Datos personales:\n %s\t %d anios\t telefono %d ", nombre, edad, numeroTelefono));
     }
 
     public String getNombre() {
