@@ -11,6 +11,6 @@ public class EjerciciosTemaOcho {
 
     public static void executeNuevaPersona(String nombre, int edad, int numeroTelefono){
         Persona persona = new Persona(nombre, edad, numeroTelefono);
-        System.out.println(persona.getDetalles());;    
+        System.out.println(persona.getDetalles());    
     }        
 }
